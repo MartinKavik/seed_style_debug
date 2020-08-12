@@ -19,6 +19,8 @@ wasm-bindgen-test = "0.3.13"
 # This commit points to Seed 0.7.0 with important fixes.
 # Replace with `seed = "0.8.0"` (or newer) once released.
 seed = { git = "https://github.com/seed-rs/seed", rev = "0a538f0" }
+# seed_style = { git = "https://github.com/rebo/seed_style_preview", package = "seed_style_preview" }
+seed_style = { path = "../seed_style_preview", package = "seed_style_preview" }
 
 [profile.release]
 lto = true
